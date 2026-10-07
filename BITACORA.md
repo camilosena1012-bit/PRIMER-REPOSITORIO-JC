@@ -14,14 +14,21 @@ creo que  en las tres rutas vamos a ver lo mismo osea "hola desde el servidos "
 
 Porque el código del servidor no está revisando por cuál ruta entra el usuario; simplemente responde lo mismo con res.end() sin importar qué le pidan.
 
-## P2 
+## P2. 
 
 Aunque abra una sola página, creo que en la terminal van a salir dos peticiones (o más de una).
 
 porque el servidor va a pedir cosas que aun no tiene por ejemplo el icono etc. 
 
-## P3
+## P3.
 
 Seguro que las dos me van a tirar error 404 ("Ruta no encontrada").
 
 Porque el código compara el texto exacto con el ===. Si le pongo un slash de más al final (/actividades/) o lo escribo en mayúsculas (/ACTIVIDADES), ya no es idéntico a lo que pide el if, así que nos manda derecho al else.
+
+## Reflexión
+1.Nos pareció tedioso tener que revisar manualmente el método y la URL para saber qué debía responder el servidor.
+
+2.También fue un poco complicado manejar las diferentes rutas con varios if y else.
+
+3.Otra cosa que me pareció incómoda fue tener que configurar manualmente el JSON y el código de estado cuando una ruta no existe.
