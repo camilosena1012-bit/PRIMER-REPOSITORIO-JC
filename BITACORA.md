@@ -1,5 +1,4 @@
-[5:22 p.m., 7/10/2026] camilo ☃️: git push
-[5:27 p.m., 7/10/2026] camilo ☃️: # P0. ¿Qué ocurre cuando abrimos una página en el navegador?
+# P0. ¿Qué ocurre cuando abrimos una página en el navegador?
 
 * *Cliente:* es el navegador que usamos en nuestro computador o celular, porque es quien solicita la página.
 * *Servidor:* es el equipo donde está guardada la página web y que responde a la solicitud.
