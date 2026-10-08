@@ -1,12 +1,12 @@
 ## P0. 
 
-*Cliente:* es el navegador que usamos en nuestro computador o celular, porque es quien solicita la página.
+Cliente: es el navegador que usamos en nuestro computador o celular, porque es quien solicita la página.
 
-*Servidor:* es el equipo donde está guardada la página web y que responde a la solicitud.
+Servidor: es el equipo donde está guardada la página web y que responde a la solicitud.
 
-*Entrada:* viaja la solicitud que hacemos, por ejemplo, la dirección de la página que queremos abrir.
+Entrada: viaja la solicitud que hacemos, por ejemplo, la dirección de la página que queremos abrir.
 
-*Salida:* viaja la respuesta del servidor, como el código HTML, CSS, JavaScript, imágenes y demás elementos necesarios para mostrar la página.
+Salida: viaja la respuesta del servidor, como el código HTML, CSS, JavaScript, imágenes y demás elementos necesarios para mostrar la página.
 
 ## P1. 
 
@@ -47,3 +47,18 @@ Pasó porque solamente creamos la ruta / y no creamos ninguna ruta llamada /no-e
 ## Reflexión
 
 De las tres cosas que me parecieron tediosas en el Momento 1, Express me ayudó a resolverlas casi todas. Ya no tengo que hacer tantos if y else para revisar las rutas, tampoco tengo que convertir el JSON manualmente y el manejo del 404 es más sencillo. Lo que sigue igual es que tengo que crear las rutas correctamente y decidir qué debe responder cada una.
+
+
+## P5
+
+1 El navegador se queda cargando infinitamente y no manda nada
+
+2 en la terminal se ve que se llama un get pero no ase nada con el solo pone un solo get  
+
+## P6 
+
+1 el codigo de estado va a ser 200 porque si lo encontro y el body que de buelve es { id: 1, nombre: 'Rafting en el río Fonce', tipo: 'agua', precio: 60000 },
+
+2 el uno me aparece sin comillas 
+
+## P7
