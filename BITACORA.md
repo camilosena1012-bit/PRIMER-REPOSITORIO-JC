@@ -32,3 +32,18 @@ Porque el código compara el texto exacto con el ===. Si le pongo un slash de m�
 2.También fue un poco complicado manejar las diferentes rutas con varios if y else.
 
 3.Otra cosa que me pareció incómoda fue tener que configurar manualmente el JSON y el código de estado cuando una ruta no existe.
+
+## P4
+
+1.Mi predicción:
+Yo creo que si entro a /no-existe, Express va a mostrar un error 404 porque esa ruta no está creada en el código.
+
+2.Lo que pasó:
+Cuando entré a /no-existe, Express respondió con un error 404 porque no encontró una ruta que coincidiera con esa dirección.
+
+3.Por qué pasó:
+Pasó porque solamente creamos la ruta / y no creamos ninguna ruta llamada /no-existe. Express busca una ruta que coincida y, como no la encuentra, responde con 404.
+
+## Reflexión
+
+De las tres cosas que me parecieron tediosas en el Momento 1, Express me ayudó a resolverlas casi todas. Ya no tengo que hacer tantos if y else para revisar las rutas, tampoco tengo que convertir el JSON manualmente y el manejo del 404 es más sencillo. Lo que sigue igual es que tengo que crear las rutas correctamente y decidir qué debe responder cada una.
